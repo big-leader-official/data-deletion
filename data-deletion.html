@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Solicitud de Eliminación de Datos - BIG LEADER</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 50px auto; padding: 20px; }
+        .button { background: #c8551e; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; display: inline-block; }
+    </style>
+</head>
+<body>
+    <h1>Eliminación de Datos Personales</h1>
+    <p>Para solicitar la eliminación de tus datos de BIG LEADER:</p>
+    
+    <h3>📧 Opción 1: Por Email</h3>
+    <a href="mailto:alvaroamor62@hotmail.com?subject=Eliminación%20de%20datos%20BIG%20LEADER&body=Hola,%20solicito%20la%20eliminación%20de%20mis%20datos%20personales.%0D%0A%0D%0ANombre:%0D%0AEmail:%0D%0A" class="button">
+        Enviar Email
+    </a>
+    
+    <h3>📋 Opción 2: Completa el formulario</h3>
+    <form action="mailto:alvaroamor62@hotmail.com" method="post" enctype="text/plain">
+        <input type="hidden" name="subject" value="Eliminación de datos BIG LEADER">
+        <p><strong>Nombre:</strong><br>
+        <input type="text" name="name" required style="width: 100%; padding: 8px; margin: 5px 0;"></p>
+        
+        <p><strong>Email:</strong><br>
+        <input type="email" name="email" required style="width: 100%; padding: 8px; margin: 5px 0;"></p>
+        
+        <p><strong>Mensaje:</strong><br>
+        <textarea name="body" style="width: 100%; height: 100px; padding: 8px; margin: 5px 0;">
+Solicito la eliminación de todos mis datos personales de BIG LEADER.
+        </textarea></p>
+        
+        <button type="submit" class="button">Enviar Solicitud</button>
+    </form>
+    
+    <p><strong>Procesaremos tu solicitud dentro de los 30 días siguientes.</strong></p>
+</body>
+</html>
